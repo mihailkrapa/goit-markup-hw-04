@@ -325,7 +325,7 @@ img {
 }
 .social-link:hover,
 .social-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 .social-svg {
   fill: #f4f4fd;
@@ -425,22 +425,28 @@ img {
 .footer-conteiner {
   display: flex;
   gap: 120px;
+  align-items: baseline;
+  margin-right: 120px;
 }
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
 .footer-social {
-  color: var(--WHITE, #fff);
+  color: #ffffff;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 .footer-links {
   display: flex;
   gap: 16px;
+}
+.footer-li {
+  width: 40px;
+  height: 40px;
 }
