@@ -306,10 +306,19 @@ img {
   display: flex;
   gap: 24px;
 }
-.social-link {
+.about-team-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.about-team-li {
   width: 40px;
   height: 40px;
-  background-color: var(--IRIS, #4d5ae5);
+}
+.social-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
   fill: white;
   display: flex;
   align-items: center;
@@ -317,8 +326,12 @@ img {
   border-radius: 50%;
   transition-property: background-color;
 }
-.social-link:hover {
-  background-color: var(--GREEN, #31d0aa);
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
+.social-svg {
+  fill: #f4f4fd;
 }
 
 .portfolio-list {
