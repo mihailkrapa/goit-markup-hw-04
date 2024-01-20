@@ -302,10 +302,6 @@ img {
   text-align: center;
   margin-bottom: 8px;
 }
-.about-team-links {
-  display: flex;
-  gap: 24px;
-}
 .about-team-ul {
   display: flex;
   justify-content: center;
